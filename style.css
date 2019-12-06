@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "LinBio";
+    src: url("fonts/LinBiolinum_R.ttf");
+}
+/*@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'LinBio', serif;
+}
+body{
+    background-color: #141416;
+}
+.ailimg{
+    margin: auto;
+    display: block;
+}
+.nav{
+    background-color: hsl(0,0%,10%);
+}
+nav{
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+/*    border-bottom: 1px solid #EE8623;*/
+}
+.navul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nava{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.nava:hover{
+    background-color: hsl(0,0%,15%);
+}
+.line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #EE8623));
+}
+#checkbox{
+    display: none;
+    border: 5px solid black;
+    appearance: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 15px;
+    filter: opacity(0) !important;
+}
+.bar{
+    position: absolute;
+    display: none;
+    top: 15px;
+    left: 15px;
+    background-color: white;
+    width: 40px;
+    height: 5px;
+}
+.bar2{
+    margin-top:15px;
+}
+.bar3{
+    margin-top:30px;
+}
+@media only screen and (max-width: 780px){
+    .navul{
+        flex-direction: column;
+    }
+    #checkbox{
+        display: block;
+    }
+    .bar{
+        display: block;
+    }
+#checkbox:checked + label{
+    display: none;
+}
+}
+.title{
+    color: white;
+    text-align: center;
+}
+.subtitle{
+    color:white;
+    text-align: center;
+    display: block;
+}
