@@ -45,7 +45,7 @@ nav{
     display:block;
     border:none;
     color:white;
-    height:1px;
+    height:2px;
     background:black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #EE8623));
 }
