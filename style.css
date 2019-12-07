@@ -138,6 +138,7 @@ nav{
     display: block;
     margin: auto;
     width: 500px;
+    min-width: 500px;
     background-color: #141416;
 }
 .span{
@@ -151,12 +152,21 @@ nav{
 @media only screen and (max-width: 800px){
     .content{
         top: 340px;
+        width: 90% !important;
+        padding: 1rem;
+    }
+    .centeredcontent{
+        min-width: 0px;
+        width: 100%;
     }
     .checkbox{
         width: 100%;
     }
     form{
         max-width: 80% !important;
+    }
+    .paragraph:last-child{
+        margin-bottom: 10rem;
     }
 }
 
