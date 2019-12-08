@@ -60,6 +60,8 @@ nav{
     background: radial-gradient(#EE8623, 30%, transparent);
 }
 .flare{
+    z-index: 100;
+    position: relative;
     height: 14px;
     width: 100%;
     margin-top: -0.6rem;
