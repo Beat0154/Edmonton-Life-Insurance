@@ -38,6 +38,7 @@ nav{
     color: white;
     text-decoration: none;
     padding: 1rem;
+    width: auto;
 }
 .nava:hover{
     background-color: hsl(0,0%,15%);
@@ -125,12 +126,26 @@ nav{
 }
 .checkbox{
     display: inline-block;
-    width: 150px;
     position: absolute;
+    margin-left: -17px;
     height: 50px;
     filter: opacity(0);
 }
-
+.check1{
+    width: 192px;
+}
+.check2{
+    width: 157px;
+}
+.check3{
+    width: 147px;
+}
+.check4{
+    width: 127px;
+}
+.check5{
+    width: 107px;
+}
 #checkbox:checked + span {
 	color: orange;
 	text-shadow: 2px 3px 4px black;
@@ -146,6 +161,7 @@ nav{
 
 .content{
     position: absolute;
+    background-color: #141416;
     display: block;
     left: 0px !important; 
     margin:0 auto !important;
@@ -161,7 +177,6 @@ nav{
     margin: auto;
     width: 500px;
     min-width: 500px;
-    background-color: #141416;
 }
 .span{
     text-align: center;
