@@ -136,7 +136,7 @@ nav{
 #contact:checked ~ #div5  {
     display: block !important;
 }
-..content{
+.content{
     position: absolute;
     background-color: #141416;
     display: block;
